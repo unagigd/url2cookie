@@ -77,10 +77,10 @@
       }, {});
   }
 
-  return {
+  return (url2cookie = {
     getCookie: getCookie,
     getDateWithOffset: getDateWithOffset,
     setCookie: setCookie,
     parse: parse
-  };
+  });
 })(document, window);
