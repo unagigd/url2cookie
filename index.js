@@ -1,4 +1,7 @@
-(function(d, w) {
+(function(global, factory) {
+  global.url2cookie = factory(global);
+})(this, function(w) {
+  var d = w.d;
   function getDateWithOffset(offset, unit) {
     var now = new Date();
     switch (unit) {
@@ -77,10 +80,10 @@
       }, {});
   }
 
-  return (url2cookie = {
+  return {
     getCookie: getCookie,
     getDateWithOffset: getDateWithOffset,
     setCookie: setCookie,
     parse: parse
-  });
-})(document, window);
+  };
+});
