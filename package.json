@@ -1,0 +1,23 @@
+{
+  "name": "url2cookie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "uglifyjs index.js -o index.min.js -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unagigd/url2cookie.git"
+  },
+  "author": "unagigd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unagigd/url2cookie/issues"
+  },
+  "homepage": "https://github.com/unagigd/url2cookie#readme",
+  "devDependencies": {
+    "uglify-js": "^3.6.0"
+  }
+}
