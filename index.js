@@ -1,7 +1,7 @@
 (function(global, factory) {
   global.url2cookie = factory(global);
 })(this, function(w) {
-  var d = w.d;
+  var d = w.document;
   function getDateWithOffset(offset, unit) {
     var now = new Date();
     switch (unit) {
